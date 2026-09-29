@@ -9,10 +9,10 @@ namespace design_patterns.Services
     public class ShippingService
     {
         private IShippingStrategy _shippingStrategy;
-        public ShippingService(IShippingStrategy shippingStrategy)
-        {
-            _shippingStrategy = shippingStrategy;
-        }
+        //public ShippingService(IShippingStrategy shippingStrategy)
+        //{
+        //    _shippingStrategy = shippingStrategy;
+        //}
         public void SetShippingStrategy(IShippingStrategy shippingStrategy)
         {
             _shippingStrategy = shippingStrategy;
